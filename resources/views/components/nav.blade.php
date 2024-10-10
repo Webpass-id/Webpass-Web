@@ -16,7 +16,7 @@
 
         <div class="s-header__block">
             <div class="s-header__logo">
-                <a class="logo" href="index.html">
+                <a class="logo" href="./">
                     <img style="margin-bottom: 200px" src="assets/images/logo.png" alt="Homepage">
                 </a>
             </div>
