@@ -13,6 +13,7 @@
 
     <!-- CSS
     ================================================== -->
+    <link href="{{ mix('css/app.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/vendor.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 
