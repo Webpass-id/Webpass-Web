@@ -46,48 +46,101 @@
 
         </div>
     </div>
-
-    <div class="row about-stats stats block-lg-one-fourth block-md-one-half block-mob-whole" data-animate-block>
-
-        <div class="column stats__item" data-animate-el>
-            <div class="stats__count" data-counter=30><span>30</span>+</div>
-            <h5>Happy Customers</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam.
-            </p>
-        </div>
-        <div class="column stats__item" data-animate-el>
-            <div class="stats__count" data-counter=35><span>35</span>+</div>
-            <h5>Hours Work</h5>
-            <p>
-                Eleifend donec pretium vulputate sapien nec sagittis
-                aliquam malesuada. Eu scelerisque felis imperdiet proin
-                fermentum leo. Cursus turpis massa tincidunt.
-            </p>
-        </div>
-        <div class="column stats__item" data-animate-el>
-            <div class="stats__count" data-counter=41><span>41</span>+</div>
-            <h5>Coffee Drinks</h5>
-            <p>
-                Volutpat commodo sed egestas egestas fringilla phasellus
-                faucibus scelerisque. Est velit egestas dui id ornare.
-                Leo urna molestie at elementum.
-            </p>
-        </div>
-        <div class="column stats__item" data-animate-el>
-            <div class="stats__count" data-counter=38><span>38</span>+</div>
-            <h5>Completed Projects</h5>
-            <p>
-                Nulla pharetra diam sit amet nisl suscipit adipiscing
-                bibendum est. Quis risus sed vulputate odio ut.
-                Lectus arcu bibendum at varius vel eu facilisis.
-            </p>
+    <div class="about-container row about-stats d-flex align-items-center" data-animate-block>
+        <!-- Logo (Kiri) -->
+        <div class="logo-container text-center">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
         </div>
 
-    </div> <!-- end about-stats -->
+        <!-- About Us Section (Kanan) -->
+        <div class="about-text text-center">
+            <h2>About Us</h2>
+            <p>
+                We are committed to providing excellent service and delivering quality products to our customers. Our
+                team
+                works tirelessly to meet your needs and exceed your expectations.
+            </p>
+        </div>
+    </div>
 
+    <!-- CSS -->
+    <style>
+        .about-container {
+            display: flex;
+            align-items: flex-start;
+            /* Mengubah menjadi flex-start untuk menurunkan logo */
+            justify-content: center;
+            text-align: center;
+            padding: 40px 30px;
+            /* Memperbesar padding untuk lebih banyak ruang */
+            margin: 0 auto;
+            max-width: 1200px;
+            /* Meningkatkan lebar maksimum untuk proporsional */
+        }
+
+        .logo-container {
+            flex: 0 0 auto;
+            margin-right: 10px;
+            /* Jarak yang lebih besar antara logo dan teks */
+        }
+
+        .logo {
+            max-width: 200px;
+            /* Meningkatkan ukuran logo */
+            height: auto;
+            margin-top: 10px;
+            margin left: 30px;
+            /* Tambahkan margin atas untuk penyesuaian */
+        }
+
+        .about-text {
+            flex: 1;
+            font-size: 1.5rem;
+            /* Meningkatkan ukuran teks untuk keterbacaan yang lebih baik */
+        }
+
+        h2 {
+            font-size: 3rem;
+            /* Membesarkan ukuran judul */
+            margin-bottom: 25px;
+            /* Meningkatkan margin bawah untuk jarak lebih banyak */
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 1.5rem;
+            /* Meningkatkan ukuran teks paragraf */
+            line-height: 1.8;
+            /* Jarak antar baris yang lebih baik */
+            margin: 0 auto;
+            /* Memastikan teks berada di tengah */
+            max-width: 700px;
+            /* Batasi lebar paragraf untuk keterbacaan */
+        }
+
+        @media (max-width: 768px) {
+            .about-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .logo-container {
+                margin-right: 0;
+                margin-bottom: 20px;
+                /* Mengurangi jarak di layar kecil */
+            }
+
+            h2 {
+                font-size: 2.5rem;
+                /* Penyesuaian ukuran pada layar kecil */
+            }
+
+            p {
+                font-size: 1.2rem;
+                /* Mengurangi ukuran paragraf pada layar kecil */
+            }
+        }
+    </style>
 </section> <!-- end s-intro -->
 
 
