@@ -72,6 +72,8 @@
     }; // end ssPreloader
 
 
+
+
    /* mobile menu
     * ---------------------------------------------------- */ 
     const ssMobileMenu = function() {
@@ -148,7 +150,6 @@
         }
 
     }; // end ssScrollSpy
-
 
    /* animate elements if in viewport
     * ------------------------------------------------------ */
